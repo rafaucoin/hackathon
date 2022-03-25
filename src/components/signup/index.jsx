@@ -45,7 +45,7 @@ function SignUp() {
     </RadioGroup>
 </Flex>
 <Flex>
-<FormLabel>Situation</FormLabel>
+<FormLabel>Situation:</FormLabel>
 <RadioGroup defaultValue='Married'>
     <HStack spacing='24px'>
       <Radio value='Married'>Married</Radio>
