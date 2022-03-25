@@ -10,6 +10,7 @@ import {
   Tbody,
   Td,
   Tfoot,
+  Text,
 } from '@chakra-ui/react';
 import React from 'react';
 import { GrAdd } from 'react-icons/gr';
@@ -18,7 +19,7 @@ function Vaccination() {
   return (
     <VStack>
       <HStack width="100%" justifyContent="space-between">
-        <Heading size="lg">Vaccination</Heading>
+        <Heading size="md">Vaccination</Heading>
         <Button
           display="flex"
           align="center"
@@ -29,25 +30,24 @@ function Vaccination() {
           Add Info
         </Button>
       </HStack>
-      <Table size="lg">
-        <Thead>
-          <Tr>
-            <Th>Name</Th>
-            <Th isDate>Date</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          <Tr>
-            <Td>inches</Td>
-            <Td>millimetres (mm)</Td>
-          </Tr>
-
-          <Tr>
-            <Td>yards</Td>
-            <Td>metres (m)</Td>
-          </Tr>
-        </Tbody>
-      </Table>
+      <HStack width="100%" justifyContent="space-between">
+        <VStack>
+          <Heading size="sm">Name</Heading>
+          <Text alignSelf="flex-start">Flue</Text>
+          <Text alignSelf="flex-start">Pfizer</Text>
+          <Text alignSelf="flex-start">Flue</Text>
+          <Text alignSelf="flex-start">Pfizer</Text>
+        </VStack>
+        <VStack>
+          <Heading size="sm" alignSelf="flex-start">
+            Date
+          </Heading>
+          <Text alignSelf="flex-start">06/09/2021</Text>
+          <Text alignSelf="flex-start">06/09/2021</Text>
+          <Text alignSelf="flex-start">06/09/2021</Text>
+          <Text alignSelf="flex-start">06/09/2021</Text>
+        </VStack>
+      </HStack>
     </VStack>
   );
 }

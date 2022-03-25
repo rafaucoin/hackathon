@@ -1,87 +1,86 @@
-import { Line } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from 'chart.js';
+import { Bar, Chart } from 'test-react-chartjs-2';
+import * as zoom from 'chartjs-plugin-zoom';
+import { useEffect, useState } from 'react';
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-);
-const data = {
-  labels: [
-    'Jan',
-    'Feb',
-    'Mar',
-    'Apr',
-    'May',
-    'Jun',
-    'Jul',
-    'Aug',
-    'Sep',
-    'Oct',
-    'Nov',
-    'Dec',
-  ],
-  datasets: [
-    {
-      label: 'My Balance',
-      fill: false,
-      lineTension: 0.5,
-      backgroundColor: '#db86b2',
-      borderColor: '#B57295',
-      borderCapStyle: 'butt',
-      borderDashOffset: 0.0,
-      borderJoinStyle: '#B57295',
-      pointBorderColor: '#B57295',
-      pointBackgroundColor: '#fff',
-      pointBorderWidth: 1,
-      pointHoverRadius: 5,
-      pointHoverBackgroundColor: '#B57295',
-      pointHoverBorderColor: '#B57295',
-      pointHoverBorderWidth: 2,
-      pointRadius: 1,
-      pointHitRadius: 10,
-      data: [500, 300, 400, 800, 650, 700, 690, 1200, 1050, 1300],
-    },
-  ],
-};
-
+const labels = [0.75, 1.25, 1.75, 2.25];
+const data = [1, 2, 3, 4];
 const options = {
-  maintainAspectRatio: true,
+  pan: {
+    enabled: true,
+    mode: 'xy',
+  },
+  zoom: {
+    enabled: true,
+    drag: false,
+    mode: 'xy',
+  },
   scales: {
     x: {
-      grid: {
+      type: 'linear',
+      offset: false,
+      gridLines: {
+        offsetGridLines: false,
+      },
+      title: {
         display: true,
+        text: 'Arrivals per minute',
       },
-    },
-    y: {
-      grid: {
-        borderDash: [3, 3],
-      },
-      // beginAtZero: true, // this works
     },
   },
+
   plugins: {
-    legend: {
-      display: false,
+    beforeInit: function (chart, args, options) {
+      console.log('called');
+    },
+    afterDatasetDraw: () => {
+      console.log('called');
     },
   },
 };
 
-const Chart = () => (
-  <Line height={150} width={null} data={data} options={options} />
-);
+export default function Chart() {
+  const [value, setValue] = useState(0);
+  useEffect(() => {
+    Chart.register(zoom);
+  }, []);
 
-export default Chart;
+  return (
+    <div className="App">
+      <Bar
+        data={{
+          labels: labels,
+          datasets: [
+            {
+              borderColor: 'blac',
+              lineTension: 0,
+              fill: false,
+              borderJoinStyle: 'round',
+              data: data,
+              borderWidth: 0.2,
+              barPercentage: 1,
+              categoryPercentage: 1,
+              hoverBackgroundColor: 'darkgray',
+              barThickness: 'flex',
+            },
+          ],
+        }}
+        options={options}
+        plugins={[
+          {
+            afterDatasetDraw: () => {
+              console.log('called');
+            },
+          },
+        ]}
+      />
+
+      <button
+        onClick={() => {
+          setValue(value + 1);
+        }}
+      >
+        Click me
+      </button>
+    </div>
+  );
+}

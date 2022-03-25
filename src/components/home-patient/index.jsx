@@ -19,7 +19,7 @@ const Patient = () => {
       borderRadius="xl"
     >
       <Profile />
-      <Flex mt="10%" height="25vh">
+      <Flex flexDirection="column" mt="5%" height="25vh">
         <Chart />
       </Flex>
       <Vaccination />
