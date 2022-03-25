@@ -1,0 +1,5 @@
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #68D391;
+    opacity: 1;
+  }
