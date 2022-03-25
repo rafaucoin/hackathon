@@ -23,7 +23,7 @@ import {AiOutlineArrowRight} from 'react-icons/ai'
 function Step() {
   return (
     <Container p={0}  w="100vw">
-        <Flex alignItems="center" height="10vh" justifyContent="space-between">
+        <Flex alignItems="center" height="10vh" justifyContent="space-around">
           <Button display="flex" alignItems="center" variant="unstyled" leftIcon={<AiOutlineArrowLeft/>} fontFamily="component-heading-small/lg"> Sign Up</Button>
           <Text fontFamily="component-text/sm"> Patient Profile</Text>
         </Flex>

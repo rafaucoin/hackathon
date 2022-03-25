@@ -22,7 +22,7 @@ function SignUp() {
   return (
 
     <Container p={0}  w="100vw">
-        <Flex alignItems="center" height="10vh" justifyContent="space-between">
+        <Flex alignItems="center" height="10vh" justifyContent="space-around">
             <Button display="flex" alignItems="center" variant="unstyled" leftIcon={<AiOutlineArrowLeft/>} > Sign Up</Button>
             <Text > Patient Profile</Text>
         </Flex>
@@ -44,7 +44,7 @@ function SignUp() {
     </HStack>
     </RadioGroup>
 </Flex>
-<Flex justifyContent="space-between">
+<Flex justifyContent="space-around">
 <FormLabel pt='5'>Situation:</FormLabel>
 <RadioGroup defaultValue='Married'>
     <HStack spacing='24px'>
