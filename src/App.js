@@ -19,10 +19,12 @@ import axios from 'axios';
 import SignUp from './components/signup';
 import Step from './components/signup/steptwo';
 import Last from './components/signup/stepthree';
+import DocCard from './components/cards/DocCard';
 
 function App() {
   
   return (
+    <DocCard/>
     <Last />
   );
 }
