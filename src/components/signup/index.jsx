@@ -26,30 +26,30 @@ function SignUp() {
             <Button display="flex" alignItems="center" variant="unstyled" leftIcon={<AiOutlineArrowLeft/>} > Sign Up</Button>
             <Text > Patient Profile</Text>
         </Flex>
-        <FormControl px={3} display="flex" flexDirection="column" gap={2} mt="10%">
+        <FormControl px={3} display="flex" flexDirection="column" gap={2} mt="10%" >
   <FormLabel htmlFor='country' fontSize="3xl">Add your Informations:</FormLabel>
-  <FormLabel>Family Name</FormLabel>
+  <FormLabel pt='5'>Family Name</FormLabel>
   <Input  placeholder='"Family Name"'/>
-  <FormLabel >Name</FormLabel>  <Input  placeholder='"Name"'/>
+  <FormLabel pt='5' >Name</FormLabel>  <Input  placeholder='"Name"'/>
 
-  <FormLabel >Date of birth</FormLabel>  <Input  placeholder='"Date of birth"'/>
-  <FormLabel>Adress</FormLabel>
+  <FormLabel pt='5'>Date of birth</FormLabel>  <Input  placeholder='"Date of birth"'/>
+  <FormLabel pt='5'>Adress</FormLabel>
   <Input  placeholder='"Adress"'/>
-<Flex>
-<FormLabel>Gender:</FormLabel>
+<Flex justifyContent="space-between">
+<FormLabel pt='5'>Gender:</FormLabel>
 <RadioGroup defaultValue='Male'>
     <HStack spacing='24px'>
-      <Radio value='Male'>Male</Radio>
-      <Radio value='Woman'>Female</Radio>
+      <Radio value='Male' pt='5'>Male</Radio>
+      <Radio value='Woman' pt='5'>Female</Radio>
     </HStack>
     </RadioGroup>
 </Flex>
-<Flex>
-<FormLabel>Situation:</FormLabel>
+<Flex justifyContent="space-between">
+<FormLabel pt='5'>Situation:</FormLabel>
 <RadioGroup defaultValue='Married'>
     <HStack spacing='24px'>
-      <Radio value='Married'>Married</Radio>
-      <Radio value='Single'>Single</Radio>
+      <Radio value='Married' pt='5'>Married</Radio>
+      <Radio value='Single' pt='5'>Single</Radio>
     </HStack>
     </RadioGroup>
 </Flex>
