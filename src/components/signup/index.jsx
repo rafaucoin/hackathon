@@ -40,7 +40,7 @@ function SignUp() {
 <RadioGroup defaultValue='Male'>
     <HStack spacing='24px'>
       <Radio value='Male'>Male</Radio>
-      <Radio value='Woman'>Woman</Radio>
+      <Radio value='Woman'>Female</Radio>
     </HStack>
     </RadioGroup>
 </Flex>
