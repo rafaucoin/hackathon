@@ -17,7 +17,7 @@ import {
 import {AiOutlineArrowLeft} from 'react-icons/ai'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
-// SignUp Function
+// SignUp step one Function
 function SignUp() {
   return (
 
@@ -59,7 +59,7 @@ function SignUp() {
             <Button display="flex" alignItems="center" variant="unstyled" rightIcon={<AiOutlineArrowRight/>} > Continue</Button>
         </Flex>
     </Container>
-  )
+  );
 }
 
 export default SignUp
