@@ -53,6 +53,13 @@
    |![Welcome Page](a-3.png)
    |![Welcome Page](a-4.png)
    |![Welcome Page](a-5.png)
+   
+   2. **SignUp Page**
+   |SignUp Page|
+   |:--:|
+   |![Sign Up](b-1 Sign up - choose a profile.png)
+   |Sign Up Page|
+   |![Sign Up](b-2Add info - patient.png)|
 
     
     
