@@ -11,7 +11,7 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js';
-import { Button, Heading, HStack } from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, HStack, Text } from '@chakra-ui/react';
 
 ChartJS.register(
   CategoryScale,
@@ -83,11 +83,11 @@ const options = {
   },
 };
 
-const Chart = () => {
+const Chart = ({ indicator }) => {
   return (
     <>
       <HStack width="100%" justifyContent="space-between">
-        <Heading size="lg">Temperature</Heading>
+        <Heading size="md">{indicator}</Heading>
         <Button
           display="flex"
           align="center"
@@ -97,6 +97,17 @@ const Chart = () => {
         >
           Add Info
         </Button>
+      </HStack>
+      <HStack justifyContent="space-between">
+        <Text>Sort by:</Text>
+        <Flex width="50%" justifyContent="space-between">
+          <Text color="gray.400" as="ins">
+            day
+          </Text>
+          <Text>week</Text>
+
+          <Text>month</Text>
+        </Flex>
       </HStack>
       <Line data={data} options={options} />
     </>

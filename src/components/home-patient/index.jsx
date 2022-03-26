@@ -14,15 +14,18 @@ const Patient = () => {
       display="flex"
       flexDirection="column"
       my={3}
-      height="100vh"
+      gap={5}
       mb="7vh"
       borderRadius="xl"
     >
       <Profile />
       <Flex flexDirection="column" mt="5%" height="25vh">
-        <Chart />
+        <Chart indicator="Temperature" />
       </Flex>
       <Vaccination />
+      <Flex flexDirection="column" mt="5%" height="25vh">
+        <Chart indicator="Blood glucose" />
+      </Flex>
       <NavBar />
     </Container>
   );
