@@ -53,7 +53,7 @@
    
    |LogIn Page|
    |:--:|
-   |![Sign Up](l-1.png)
+   |![Log In](l-1.png)
    
    
    3. **SignUp Page**
@@ -67,19 +67,19 @@
    
    |SignUp Page Confirmation|
    |:--:|
-   |![Sign Up](b-4.png)
+   |![Sign Up Confirmation](b-4.png)
    
-   4. **Home Page**
+   4. **Result Page**
    
-   |Home Page|
+   |Result Page|
    |:--:|
-   |![Sign Up](r-1.png)
+   |![Result](r-1.png)
    
    5. **Patient Page**
    
    |Patient Page|
    |:--:|
-   |![Sign Up](h-1.png)
+   |![Patient](h-1.png)
    
    
 
