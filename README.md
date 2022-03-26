@@ -80,7 +80,6 @@
 - [Yasmine Lakrib]()
 - [Lamine Kaouane]()
 - [Sidali Sisaber](https://github.com/Siiidali)
-- 
 
 ## Test It!!
 
