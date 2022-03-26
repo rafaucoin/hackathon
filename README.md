@@ -37,8 +37,48 @@
 * This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange)
 * This application created using ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green)
 * This application created using ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-* * This application created using ![React.Js](https://img.shields.io/badge/React.Js-blue)
+* This application created using ![React.Js](https://img.shields.io/badge/React.Js-blue)
 * This application created using ![Firebase](https://img.shields.io/badge/Firebase-orange)
+
+
+## Project Demonstration
+  * ### Screens
+  1. **LogIn/SignUp Pages**
+
+    |Login Page|
+    |:--:|
+    |![Login Page](assets/images/login.png)
+    |Sign In Page|
+    |![Sign Up](assets/images/signup.png)|
+    
+    2. **Home Page**
+    
+    ||
+    |:--:|
+    |![Home](assets/images/home.png)|
+    
+    1. **PastEvents Page**
+    
+    ||
+    |:--:|
+    |![PastEvents](assets/images/PastEvents.png)|
+    1. **Galery Page**
+   
+    ||
+    |:--:|
+    |![Sign Up](assets/images/galery.png)|
+    
+    
+ 
+
+
+## Team Members
+
+- [Ayoub Kezzoula](https://github.com/AyoubKezzoula)
+- [Rafik DOUHA](https://github.com/rafaucoin)
+- [Yasmine Lakrib]()
+- [Lamine Kaouane]()
+- [Sidali Sisaber](https://github.com/Siiidali)
 
 
 
