@@ -59,7 +59,6 @@
    |SignUp Page|
    |:--:|
    |![Sign Up](b-1 Sign up - choose a profile.png)
-   |Sign Up Page|
    |![Sign Up](b-2Add info - patient.png)|
 
     
