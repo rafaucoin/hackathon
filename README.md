@@ -44,14 +44,11 @@
 
 ## Project Demonstration
   * ### Screens
-  1. **LogIn/SignUp Pages**
-
-    |Login Page|
+  |Login Page|
     |:--:|
-    |![Login Page](a-1.png)
-)
+    |![Login Page](assets/images/a-1.png)
     |Sign In Page|
-    |![Sign Up](assets/images/signup.png)|
+    |![Sign Up](assets/images/a-2.png)|
     
     2. **Home Page**
     
