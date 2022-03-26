@@ -58,8 +58,8 @@
    
    |SignUp Page|
    |:--:|
-   |![Sign Up](b-1 Sign up - choose a profile.png)
-   |![Sign Up](b-2Add info - patient.png)|
+   |![Sign Up](b-1.png)
+   |![Sign Up](b-2.png)|
 
     
     
