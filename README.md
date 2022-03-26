@@ -44,13 +44,21 @@
 
 ## Project Demonstration
   * ### Screens
-  |Login Page|
+  
+   1. **Welcome Pages**
+    |Welcome Pages|
     |:--:|
-    |![Login Page](a-1.png)
-    |Sign In Page|
-    |![Sign Up](a-2.png)|
+    |![Welcome Pages](a-1.png)
     
-    2. **Home Page**
+    
+   2. **Home Page**
+    ||
+    |:--:|
+    |![Login Page]()
+    |Sign In Page|
+    |![Sign Up]()|
+    
+    3. **Home Page**
     
     ||
     |:--:|
