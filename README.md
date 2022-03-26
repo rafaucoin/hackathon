@@ -74,7 +74,7 @@
 ## Team Members
 
 - [Ayoub Kezzoula](https://github.com/AyoubKezzoula)
-- [Rafik DOUHA](https://github.com/rafaucoin)
+- [Rafik Douha](https://github.com/rafaucoin)
 - [Yasmine Lakrib]()
 - [Lamine Kaouane]()
 - [Sidali Sisaber](https://github.com/Siiidali)
