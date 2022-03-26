@@ -15,7 +15,7 @@
 |#|<h3 style ="font-family:Poppins" >Table Of Contents</h3> |
 |:--:|:---------------------------:|
 |1| [What it's all about ?](#what-its-all-about)|
-|2| [Why Medicine App ?](#why-Medicine-app)|
+|2| [Why Medicine App ?](#why-medicine-app)|
 |3| [Technologies used](#technologies-used)|
 |4| [Project Demonstration](#project-demonstration)|
 |5| [Team Members](#team-members)|
