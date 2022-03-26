@@ -56,7 +56,7 @@
    |![Sign Up](l-1.png)
    
    
-   2. **SignUp Page**
+   3. **SignUp Page**
    
    |SignUp Page|
    |:--:|
@@ -69,11 +69,18 @@
    |:--:|
    |![Sign Up](b-4.png)
    
-   3. **Home Page**
+   4. **Home Page**
    
    |Home Page|
    |:--:|
    |![Sign Up](r-1.png)
+   
+   5. **Patient Page**
+   
+   |Patient Page|
+   |:--:|
+   |![Sign Up](h-1.png)
+   
    
 
 
