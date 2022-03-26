@@ -1,86 +1,106 @@
-import { Bar, Chart } from 'test-react-chartjs-2';
-import * as zoom from 'chartjs-plugin-zoom';
-import { useEffect, useState } from 'react';
+import { Line } from 'react-chartjs-2';
+import { GrAdd } from 'react-icons/gr';
+import React from 'react';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
+import { Button, Heading, HStack } from '@chakra-ui/react';
 
-const labels = [0.75, 1.25, 1.75, 2.25];
-const data = [1, 2, 3, 4];
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
+const data = {
+  labels: [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ],
+  datasets: [
+    {
+      label: 'My Balance',
+      fill: false,
+      lineTension: 0.5,
+      backgroundColor: '#db86b2',
+      borderColor: '#B57295',
+      borderCapStyle: 'butt',
+      borderDashOffset: 0.0,
+      borderJoinStyle: '#B57295',
+      pointBorderColor: '#B57295',
+      pointBackgroundColor: '#fff',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#B57295',
+      pointHoverBorderColor: '#B57295',
+      pointHoverBorderWidth: 2,
+      pointRadius: 1,
+      pointHitRadius: 10,
+      data: [500, 300, 400, 800, 650, 700, 690, 1200, 1050, 1300],
+    },
+  ],
+};
+
 const options = {
-  pan: {
-    enabled: true,
-    mode: 'xy',
-  },
-  zoom: {
-    enabled: true,
-    drag: false,
-    mode: 'xy',
-  },
+  maintainAspectRatio: true,
   scales: {
     x: {
-      type: 'linear',
-      offset: false,
-      gridLines: {
-        offsetGridLines: false,
-      },
-      title: {
+      grid: {
         display: true,
-        text: 'Arrivals per minute',
       },
+    },
+    y: {
+      grid: {
+        borderDash: [3, 3],
+      },
+      // beginAtZero: true, // this works
     },
   },
-
   plugins: {
-    beforeInit: function (chart, args, options) {
-      console.log('called');
-    },
-    afterDatasetDraw: () => {
-      console.log('called');
+    legend: {
+      display: false,
     },
   },
 };
 
-export default function Chart() {
-  const [value, setValue] = useState(0);
-  useEffect(() => {
-    Chart.register(zoom);
-  }, []);
-
+const Chart = () => {
   return (
-    <div className="App">
-      <Bar
-        data={{
-          labels: labels,
-          datasets: [
-            {
-              borderColor: 'blac',
-              lineTension: 0,
-              fill: false,
-              borderJoinStyle: 'round',
-              data: data,
-              borderWidth: 0.2,
-              barPercentage: 1,
-              categoryPercentage: 1,
-              hoverBackgroundColor: 'darkgray',
-              barThickness: 'flex',
-            },
-          ],
-        }}
-        options={options}
-        plugins={[
-          {
-            afterDatasetDraw: () => {
-              console.log('called');
-            },
-          },
-        ]}
-      />
-
-      <button
-        onClick={() => {
-          setValue(value + 1);
-        }}
-      >
-        Click me
-      </button>
-    </div>
+    <>
+      <HStack width="100%" justifyContent="space-between">
+        <Heading size="lg">Temperature</Heading>
+        <Button
+          display="flex"
+          align="center"
+          variant="unstyled"
+          rightIcon={<GrAdd />}
+          p={2}
+        >
+          Add Info
+        </Button>
+      </HStack>
+      <Line data={data} options={options} />
+    </>
   );
-}
+};
+
+export default Chart;
