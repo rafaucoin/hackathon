@@ -7,7 +7,7 @@
   <h1 align="center"  style="font-family:'Poppins'">
   HEALTH Track
 
-![Team](https://img.shields.io/badge/CreatedWith-Team__Super--Survivors-brightpurple)
+![Team](https://img.shields.io/badge/CreatedWith-Team__Super--Survivors-brightblack)
 </h1>
 <hr>
 </p>
