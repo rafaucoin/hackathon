@@ -19,6 +19,8 @@
 |3| [Technologies used](#technologies-used)|
 |4| [Project Demonstration](#project-demonstration)|
 |5| [Team Members](#team-members)|
+|6| [Test It!!](#test-it)|
+|7| [Learn More](#learn-more)|
 
 
 
@@ -38,6 +40,8 @@
 * This application created using ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 * This application created using ![React.Js](https://img.shields.io/badge/React.Js-blue)
 * This application created using ![Firebase](https://img.shields.io/badge/Firebase-orange)
+
+## Test It!!
 
 
 ## Project Demonstration
@@ -78,36 +82,9 @@
 - [Yasmine Lakrib]()
 - [Lamine Kaouane]()
 - [Sidali Sisaber](https://github.com/Siiidali)
+- 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Test It!!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -147,6 +124,8 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+
 
 ## Learn More
 
