@@ -35,7 +35,7 @@
 * _**Why** creating a Medicine application/ Web?_ _**What** problems we can solve with it?_ You can ask this question, well the answer is as follows,...
 
 ## Technologies used
-* This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange)
+* This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange), ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green)
 * This application created using ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green)
 * This application created using ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 * This application created using ![React.Js](https://img.shields.io/badge/React.Js-blue)
