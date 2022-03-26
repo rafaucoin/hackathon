@@ -46,7 +46,7 @@
   * ### Screens
   |Login Page|
     |:--:|
-    |![Login Page](hackathon/blob/master/a-1.png)
+    |![Login Page](blob/master/a-1.png)
     |Sign In Page|
     |![Sign Up](assets/images/a-2.png)|
     
