@@ -1,9 +1,9 @@
-# this is a Hackathon project 
+# This is an Hackathon project 
 
 <hr>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <p align="center">
-  <img src="![Image](https://user-images.githubusercontent.com/79875005/160218204-cfd15b58-40c3-449d-b374-b8280523bc4c.png)" width="100" alt="project_logo"/></img>
+  <img src="Documents/hackathon/Image.png" width="100" alt="project_logo"/></img>
   <h1 align="center"  style="font-family:'Poppins'">
   HEALTH Track
 
