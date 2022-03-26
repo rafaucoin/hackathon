@@ -55,6 +55,7 @@
    |![Welcome Page](a-5.png)
    
    2. **SignUp Page**
+   
    |SignUp Page|
    |:--:|
    |![Sign Up](b-1 Sign up - choose a profile.png)
