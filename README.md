@@ -84,7 +84,7 @@
 
 - [Ayoub Kezzoula](https://github.com/AyoubKezzoula)
 - [Rafik Douha](https://github.com/rafaucoin)
-- [Yasmine Lakrib]()
+- [Yasmine Lakrib](https://github.com/YasmineLAKRIB)
 - [Lamine Kaouane](https://www.behance.net/lamiine)
 - [Sidali Sisaber](https://github.com/Siiidali)
 
