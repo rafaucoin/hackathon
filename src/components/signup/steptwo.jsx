@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {
     Container, 
     Flex,
@@ -15,19 +14,23 @@ import {
     HStack,
     Stack
 } from '@chakra-ui/react'
-
+import { useNavigate } from 'react-router'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
 import {AiOutlineArrowRight} from 'react-icons/ai'
 
 // SignUp step two Function
 function Step() {
+  let navigate = useNavigate();
+  const submit = e => {
+    navigate('/signup/3');
+  };
   return (
     <Container p={0}  w="100vw">
-        <Flex alignItems="center" height="10vh" justifyContent="space-around">
-          <Button display="flex" alignItems="center" variant="unstyled" leftIcon={<AiOutlineArrowLeft/>} fontFamily="component-heading-small/lg"> Sign Up</Button>
-          <Text fontFamily="component-text/sm"> Patient Profile</Text>
+        <Flex alignItems="center" height="10vh" justifyContent="space-between" pr={2}>
+            <Button display="flex" alignItems="center" variant="unstyled" leftIcon={<AiOutlineArrowLeft/>} > Sign Up</Button>
+            <Text > Patient Profile</Text>
         </Flex>
-        <FormControl px={3} display="flex" flexDirection="column" gap={2} mt="10%" >
+        <FormControl onSubmit={submit} px={3} display="flex" flexDirection="column" gap={2} mt="10%" >
           <FormLabel htmlFor='country' fontSize="3xl" fontFamily="component-text/2xl">Finish profile creating:</FormLabel>
           <FormLabel pt='5' fontFamily="text-md/lineHeight-6/font-medium" >Add phone number</FormLabel>
           <Input  placeholder='"Phone number"'/>
@@ -42,11 +45,11 @@ function Step() {
           <Input  placeholder='"e-mail"'/>
         </FormControl>
 
-        <Stack direction='column' justifyContent="center" align='center' pt="14" >
-          <Button colorScheme='teal' variant='solid' >
+        <Stack direction='column' justifyContent="center" align='center' pt={4} >
+          <Button onClick={submit} colorScheme='teal' variant='solid' >
           Create profile
           </Button>
-          <Button colorScheme='teal' variant='outline' >
+          <Button colorScheme='teal' variant='outline'  >
           Go Back
           </Button>
         </Stack>
