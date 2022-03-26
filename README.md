@@ -59,7 +59,7 @@
    |![Sign Up](b-1.png)
    |![Sign Up](b-2.png)|
    
-   3. **SignUp Confirmation Page **
+   3. **SignUp Confirmation Page**
    
    |SignUp Page Confirmation|
    |:--:|
