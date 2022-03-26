@@ -49,6 +49,13 @@
    |![Welcome Page](a-4.png)
    |![Welcome Page](a-5.png)
    
+   2. **LogIn Page**
+   
+   |LogIn Page|
+   |:--:|
+   |![Sign Up](l-1.png)
+   
+   
    2. **SignUp Page**
    
    |SignUp Page|
@@ -66,7 +73,7 @@
    
    |Home Page|
    |:--:|
-   |![Sign Up](b-5.png)
+   |![Sign Up](r-1.png)
    
 
 
