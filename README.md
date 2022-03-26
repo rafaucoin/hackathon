@@ -46,34 +46,10 @@
   * ### Screens
   
    1. **Welcome Pages**
-    |Welcome Pages|
-    |:--:|
-    |![Welcome Pages](a-1.png)
-    
-    
-   2. **Home Page**
-    ||
-    |:--:|
-    |![Login Page]()
-    |Sign In Page|
-    |![Sign Up]()|
-    
-    3. **Home Page**
-    
-    ||
-    |:--:|
-    |![Home](assets/images/home.png)|
-    
-    1. **PastEvents Page**
-    
-    ||
-    |:--:|
-    |![PastEvents](assets/images/PastEvents.png)|
-    1. **Galery Page**
-   
-    ||
-    |:--:|
-    |![Sign Up](assets/images/galery.png)|
+   |Welcome Pages|
+   |:--:|
+   |![Login Page](a-1.png)
+
     
     
  
