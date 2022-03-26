@@ -60,6 +60,14 @@
    |:--:|
    |![Sign Up](b-1.png)
    |![Sign Up](b-2.png)|
+   
+   3. **SignUp Page confirmation**
+   
+   |SignUp Page Confirmation|
+   |:--:|
+   |![Sign Up](b-4.png)
+   
+
 
     
     
