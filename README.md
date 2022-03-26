@@ -3,7 +3,7 @@
 <hr>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <p align="center">
-  <img src="Documents/hackathon/Image.png" width="100" alt="project_logo"/></img>
+  <img src="Documents/Image.png" width="100" alt="project_logo"/></img>
   <h1 align="center"  style="font-family:'Poppins'">
   HEALTH Track
 
