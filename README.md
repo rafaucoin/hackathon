@@ -3,7 +3,7 @@
 <hr>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <p align="center">
-  <img src="Image.png" width="450" height="150" alt="project_logo"/></img>
+  <img src="Image.png" width="350" height="50" alt="project_logo"/></img>
   <h1 align="center"  style="font-family:'Poppins'">
   HEALTH Track
 
