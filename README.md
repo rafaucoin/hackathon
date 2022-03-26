@@ -19,7 +19,7 @@
 |3| [Technologies used](#technologies-used)|
 |4| [Project Demonstration](#project-demonstration)|
 |5| [Team Members](#team-members)|
-|6| [Test It!!](#test-it)|
+|6| [Test](#test)|
 |7| [Learn More](#learn-more)|
 
 
@@ -86,7 +86,7 @@
 - [Lamine Kaouane](https://www.behance.net/lamiine)
 - [Sidali Sisaber](https://github.com/Siiidali)
 
-## Test It
+## Test 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
