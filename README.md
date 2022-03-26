@@ -3,7 +3,7 @@
 <hr>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 <p align="center">
-  <img src="Image.png" width="350" height="150" alt="project_logo"/></img>
+  <img src="Image.png" width="400" height="150" alt="project_logo"/></img>
   <h1 align="center"  style="font-family:'Poppins'">
   HEALTH Track
 
@@ -61,9 +61,15 @@
    |![Sign Up](b-1.png)
    |![Sign Up](b-2.png)|
    
-   3. **SignUp Page confirmation**
+   3. **SignUp Confirmation Page **
    
    |SignUp Page Confirmation|
+   |:--:|
+   |![Sign Up](b-4.png)
+   
+   3. **Home Page**
+   
+   |Home Page|
    |:--:|
    |![Sign Up](b-4.png)
    
