@@ -41,8 +41,6 @@
 * This application created using ![React.Js](https://img.shields.io/badge/React.Js-blue)
 * This application created using ![Firebase](https://img.shields.io/badge/Firebase-orange)
 
-## Test It!!
-
 
 ## Project Demonstration
   * ### Screens
