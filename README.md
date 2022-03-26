@@ -44,11 +44,11 @@
 
 ## Project Demonstration
   * ### Screens
-  
    1. **Welcome Pages**
+   
    |Welcome Pages|
    |:--:|
-   |![Login Page](a-1.png)
+   |![Welcome Page](a-1.png)
 
     
     
