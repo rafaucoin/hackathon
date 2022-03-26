@@ -15,24 +15,21 @@
 |#|<h3 style ="font-family:Poppins" >Table Of Contents</h3> |
 |:--:|:---------------------------:|
 |1| [What it's all about ?](#what-its-all-about)|
-|2| [Why Medicine App ?](#why-medicine-app)|
-|3| [Technologies used](#technologies-used)|
-|4| [Project Demonstration](#project-demonstration)|
-|5| [Team Members](#team-members)|
-|6| [Test](#test)|
-|7| [Learn More](#learn-more)|
+|2| [Technologies used](#technologies-used)|
+|3| [Project Demonstration](#project-demonstration)|
+|4| [Team Members](#team-members)|
+|5| [Test](#test)|
+|6| [Learn More](#learn-more)|
 
 
 
 ## What it's all about
 >* **HEALTH Track** 
->* 
->* 
->* 
+>* **Digitalisation**
+ 
 
 
-## Why Events app?
-* _**Why** creating a Medicine application/ Web?_ _**What** problems we can solve with it?_ You can ask this question, well the answer is as follows,...
+
 
 ## Technologies used
 * This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange), ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green), ![JavaScript](https://img.shields.io/badge/JavaScript-yellow), ![React.Js](https://img.shields.io/badge/React.Js-blue), ![Firebase](https://img.shields.io/badge/Firebase-orange)
