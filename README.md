@@ -1,4 +1,4 @@
-# This is an Hackathon project 
+# This is a Hackathon project 
 
 <hr>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
 
 
 ## Technologies used
-* This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange), ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green), ![JavaScript](https://img.shields.io/badge/JavaScript-yellow), ![React.Js](https://img.shields.io/badge/React.Js-blue), ![Firebase](https://img.shields.io/badge/Firebase-orange)
+* This application created using ![HTML5](https://img.shields.io/badge/HTML5-orange), ![Chakra.Ui](https://img.shields.io/badge/Chakra.Ui-green), ![JavaScript](https://img.shields.io/badge/JavaScript-yellow), ![React.Js](https://img.shields.io/badge/React.Js-blue)
 
 
 
